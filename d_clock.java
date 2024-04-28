@@ -6,6 +6,7 @@ import java.util.Calendar;
 
 public class d_clock extends JFrame{
     Calendar calendar;
+
     SimpleDateFormat timeFormat;
     SimpleDateFormat dayFormat;
     SimpleDateFormat dateFormat;
@@ -29,7 +30,7 @@ public class d_clock extends JFrame{
         dateFormat = new SimpleDateFormat("dd MMMMM, yyyy");
         timLabel = new JLabel();
         timLabel.setFont(new Font("SANA_SERIF", Font.PLAIN, 59));
-        timLabel.setBackground(Color.BLACK);
+        timLabel.setBackground(Color.decode("#660033"));
         timLabel.setForeground(Color.white);
         timLabel.setOpaque(true);
         dayLabel = new JLabel();
